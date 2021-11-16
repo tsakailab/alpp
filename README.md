@@ -8,10 +8,11 @@
   - 動作確認
   - Jupyter Notebookについて
 - 知的画像処理？
-  - 物体検出・認識（detection and classification）：（[参考](https://medium.com/zylapp/review-of-deep-learning-algorithms-for-object-detection-c1f3d437b852)）
-  - カラー化（colorization）：[DeOldify](https://github.com/jantic/DeOldify/blob/master/ImageColorizerColab.ipynb)
+  - [Torch Hub](https://pytorch.org/hub/research-models)
+  - 物体検出・認識（detection and classification）：[SSD(colab)](https://colab.research.google.com/github/pytorch/pytorch.github.io/blob/master/assets/hub/nvidia_deeplearningexamples_ssd.ipynb)（[参考](https://medium.com/zylapp/review-of-deep-learning-algorithms-for-object-detection-c1f3d437b852)）
+  - カラー化（colorization）：[DeOldify(colab)](https://github.com/jantic/DeOldify/blob/master/ImageColorizerColab.ipynb)
   - 画像の変換：[pix2pix](https://phillipi.github.io/pix2pix/)（[参考](https://affinelayer.com/pixsrv/)）<!--（[pix2pix](https://githubtocolab.com/junyanz/pytorch-CycleGAN-and-pix2pix/blob/master/pix2pix.ipynb)）-->
-  - 画風の変換（style transfer）
+  - 画風の変換：[Style Transfer(colab)](https://githubtocolab.com/tsakailab/iip/blob/main/sandbox/NeuralStyleTransfer.ipynb)，[MSG-Net(colab)](https://colab.research.google.com/github/zhanghang1989/PyTorch-Multi-Style-Transfer/blob/master/msgnet.ipynb)
 
 ### 基礎的な画像処理
 - 局所特徴の抽出（[参考1](https://setosa.io/ev/image-kernels/)，[参考2]()）
@@ -56,6 +57,9 @@
 - ハイパーパラメタの調整
 
 ### 学習済みモデルの流用
+- 事前学習済みモデル<!-- https://note.nkmk.me/python-pytorch-hub-torchvision-models/ -->
+  - [PyTorch Hub](https://pytorch.org/hub/)
+  - [torchvision.models](https://pytorch.org/vision/stable/models.html)
 - モデルの設計
   - 特徴抽出器（backbone）の選択
   - 特徴マップから出力までの設計
