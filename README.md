@@ -4,7 +4,7 @@
 ## 第1回：深層学習による画像処理の基礎
 
 ### 準備
-- Google Colaboratory
+- [Google Colaboratory](https://colab.research.google.com/)（[参考](https://blog.kikagaku.co.jp/google-colab-howto)）
   - 動作確認
   - Jupyter Notebookについて
 - 知的画像処理？
@@ -15,12 +15,11 @@
   - 画風の変換：[Style Transfer(colab)](https://githubtocolab.com/tsakailab/iip/blob/main/sandbox/NeuralStyleTransfer.ipynb)，[MSG-Net(colab)](https://colab.research.google.com/github/zhanghang1989/PyTorch-Multi-Style-Transfer/blob/master/msgnet.ipynb)
 
 ### 基礎的な画像処理
-- 局所特徴の抽出（[参考1](https://setosa.io/ev/image-kernels/)，[参考2]()）
-  - 畳み込み演算
+- 畳み込みによる局所演算（[参考1](https://setosa.io/ev/image-kernels/)，[参考2](https://towardsdatascience.com/intuitively-understanding-convolutions-for-deep-learning-1f6f42faee1)）
   - エッジの検出・強調
   - 色の検出
   - 平均化
-- 画像の変換・拡張
+- 大域的な変換
   - 幾何学変換（拡大・縮小，回転など）
   - 画素値（色）の変換
 
@@ -36,14 +35,14 @@
 - プーリング
 
 ### CNNの構成例
-- 画像認識：画像→ラベル（AlexNet，VGG，ResNet）
+- 画像認識：画像→ラベル（[AlexNet，VGG，ResNetなど](https://medium.com/zylapp/review-of-deep-learning-algorithms-for-image-classification-5fdbca4a05e2)）
 - 画像処理：画像→画像（エンコーダ・デコーダモデル）
 - 学習済みモデルの入手と観察
   - モデルのsummary
-  - フィルタの可視化
+  - フィルタの可視化（[参考](https://towardsdatascience.com/visualizing-convolution-neural-networks-using-pytorch-3dfa843e74e)）
   - 特徴マップ
 
-### 画像認識の実装に挑戦
+### CNNの実装に挑戦<!-- CNNで小さなAEを作ってフィルタカーネルを観察する -->
 - CNNモデルの定義
 - 損失関数
 - 最適化
