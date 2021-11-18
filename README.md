@@ -9,7 +9,7 @@
   - Jupyter Notebookについて
 - 知的画像処理？
   - [Torch Hub](https://pytorch.org/hub/research-models)
-  - 物体検出・認識（detection and classification）：[SSD(colab)](https://colab.research.google.com/github/pytorch/pytorch.github.io/blob/master/assets/hub/nvidia_deeplearningexamples_ssd.ipynb)（[参考](https://medium.com/zylapp/review-of-deep-learning-algorithms-for-object-detection-c1f3d437b852)）
+  - 物体検出・認識（detection and classification）：[SSD](https://arxiv.org/pdf/1512.02325.pdf)（[colab](https://colab.research.google.com/github/pytorch/pytorch.github.io/blob/master/assets/hub/nvidia_deeplearningexamples_ssd.ipynb)，[参考1](http://www.cs.unc.edu/~wliu/papers/ssd_eccv2016_slide.pdf)），[参考2](https://medium.com/zylapp/review-of-deep-learning-algorithms-for-object-detection-c1f3d437b852)
   - カラー化（colorization）：[DeOldify(colab)](https://github.com/jantic/DeOldify/blob/master/ImageColorizerColab.ipynb)
   - 画像の変換：[pix2pix](https://phillipi.github.io/pix2pix/)（[参考](https://affinelayer.com/pixsrv/)）<!--（[pix2pix](https://githubtocolab.com/junyanz/pytorch-CycleGAN-and-pix2pix/blob/master/pix2pix.ipynb)）-->
   - 画風の変換：[Style Transfer(colab)](https://githubtocolab.com/tsakailab/iip/blob/main/sandbox/NeuralStyleTransfer.ipynb)，[MSG-Net(colab)](https://colab.research.google.com/github/zhanghang1989/PyTorch-Multi-Style-Transfer/blob/master/msgnet.ipynb)
@@ -30,7 +30,7 @@
 ### 畳み込みニューラルネットワーク（CNN）の構成要素
 - 全結合
 - 畳み込み
-- バッチノルム
+- [バッチノルム](https://arxiv.org/abs/1502.03167)（[参考1](https://pytorch.org/docs/stable/generated/torch.nn.BatchNorm2d.html)，[参考2](https://theaisummer.com/normalization/)）
 - 活性化
 - プーリング
 
