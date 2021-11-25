@@ -17,13 +17,14 @@
   - その他：[colabで動く最新技術のリンク集](https://github.com/amrzv/awesome-colab-notebooks)
 
 ### 基礎的な画像処理
-- 畳み込みによる局所演算（[参考1](https://setosa.io/ev/image-kernels/)，[参考2](https://towardsdatascience.com/intuitively-understanding-convolutions-for-deep-learning-1f6f42faee1)）[colab](https://githubtocolab.com/tsakailab/iip/blob/main/colab/iip_local_operations.ipynb)
+- 大域的な変換 [**colab**](https://githubtocolab.com/tsakailab/iip/blob/main/colab/iip_global_operations.ipynb)（[参考](https://pytorch.org/vision/stable/transforms.html)）
+  - 幾何学変換（拡大・縮小，回転など）
+  - 画素値（色）の変換
+- 畳み込みによる局所演算 [**colab**](https://githubtocolab.com/tsakailab/iip/blob/main/colab/iip_local_operations.ipynb)
+（[参考1](https://setosa.io/ev/image-kernels/)，[参考2](https://towardsdatascience.com/intuitively-understanding-convolutions-for-deep-learning-1f6f42faee1)）
   - エッジの検出・強調
   - 色の検出
   - 平均化
-- 大域的な変換 [colab]()
-  - 幾何学変換（拡大・縮小，回転など）
-  - 画素値（色）の変換
 
 ---
 
