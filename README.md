@@ -1,5 +1,7 @@
 # 知的画像処理＠2021年度先端技術応用講座
 
+この講座の教材は，解説に都合の良いWeb上の記事やデモプログラム等の外部資料，およびサンプルコードで構成しています．
+太字の[**colab**](https://github.com/tsakailab/iip/tree/main/colab)は，このGitHubのプロジェクト "iip" で講師が提供するサンプルコードをGoogle Colaboratoryで開くリンクです．
 
 ## 第1回：深層学習による画像処理の基礎
 
