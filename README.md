@@ -14,13 +14,14 @@
   - カラー化（colorization）：[DeOldify (colab)](https://github.com/jantic/DeOldify/blob/master/ImageColorizerColab.ipynb)
   - 画像の変換：[pix2pix](https://phillipi.github.io/pix2pix/)（[参考](https://affinelayer.com/pixsrv/)）<!--（[pix2pix](https://githubtocolab.com/junyanz/pytorch-CycleGAN-and-pix2pix/blob/master/pix2pix.ipynb)）-->
   - 画風の変換：[Style Transfer (colab)](https://githubtocolab.com/tsakailab/iip/blob/main/sandbox/NeuralStyleTransfer.ipynb)，[MSG-Net (colab)](https://colab.research.google.com/github/zhanghang1989/PyTorch-Multi-Style-Transfer/blob/master/msgnet.ipynb)
+  - その他：[colabで動く最新技術のリンク集](https://github.com/amrzv/awesome-colab-notebooks)
 
 ### 基礎的な画像処理
-- 畳み込みによる局所演算（[参考1](https://setosa.io/ev/image-kernels/)，[参考2](https://towardsdatascience.com/intuitively-understanding-convolutions-for-deep-learning-1f6f42faee1)）
+- 畳み込みによる局所演算（[参考1](https://setosa.io/ev/image-kernels/)，[参考2](https://towardsdatascience.com/intuitively-understanding-convolutions-for-deep-learning-1f6f42faee1)）[colab](https://githubtocolab.com/tsakailab/iip/blob/main/colab/iip_local_operations.ipynb)
   - エッジの検出・強調
   - 色の検出
   - 平均化
-- 大域的な変換
+- 大域的な変換 [colab]()
   - 幾何学変換（拡大・縮小，回転など）
   - 画素値（色）の変換
 
