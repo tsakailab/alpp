@@ -44,7 +44,7 @@
 - 画像処理：画像→画像（エンコーダ・デコーダモデル）
 - 学習済みモデルの入手と観察
   - モデルのsummary
-  - フィルタの可視化（[参考](https://towardsdatascience.com/visualizing-convolution-neural-networks-using-pytorch-3dfa843e74e)）
+  - フィルタの可視化（[参考](https://towardsdatascience.com/visualizing-convolution-neural-networks-using-pytorch-3dfa8443e74e)）
   - 特徴マップ
 
 ### CNNの実装に挑戦<!-- CNNで小さなAEを作ってフィルタカーネルを観察する -->
