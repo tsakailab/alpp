@@ -32,7 +32,7 @@
 
 ## 第2回：様々なCNNモデル
 
-### CNNの構成例
+### 畳み込みニューラルネットワーク（CNN）の構成例
 - 画像認識：画像→ラベル（[AlexNet，VGG，ResNetなど](https://medium.com/zylapp/review-of-deep-learning-algorithms-for-image-classification-5fdbca4a05e2)）
 - 画像処理：画像→画像（エンコーダ・デコーダモデル）[参考1](https://lilianweng.github.io/lil-log/2018/08/12/from-autoencoder-to-beta-vae.html)，[参考2](https://lilianweng.github.io/lil-log/2018/10/13/flow-based-deep-generative-models.html#types-of-generative-models)
 - 学習済みモデルの入手と観察
@@ -40,7 +40,7 @@
   - フィルタの可視化（[参考](https://towardsdatascience.com/visualizing-convolution-neural-networks-using-pytorch-3dfa8443e74e)）
   - 特徴マップ
 
-### 畳み込みニューラルネットワーク（CNN）の構成要素
+### CNNの構成要素
 - 全結合
 - 畳み込み
 - [バッチノルム](https://arxiv.org/abs/1502.03167)（[参考1](https://pytorch.org/docs/stable/generated/torch.nn.BatchNorm2d.html)，[参考2](https://theaisummer.com/normalization/)）
