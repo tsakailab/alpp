@@ -15,7 +15,7 @@
   - 物体検出・識別（object detection and classification）：[SSD](https://arxiv.org/pdf/1512.02325.pdf)（[colab](https://colab.research.google.com/github/pytorch/pytorch.github.io/blob/master/assets/hub/nvidia_deeplearningexamples_ssd.ipynb)，[参考1](http://www.cs.unc.edu/~wliu/papers/ssd_eccv2016_slide.pdf)，[参考2](https://jonathan-hui.medium.com/ssd-object-detection-single-shot-multibox-detector-for-real-time-processing-9bd8deac0e06)），[参考3](https://medium.com/zylapp/review-of-deep-learning-algorithms-for-object-detection-c1f3d437b852)
   - カラー化（colorization）：[DeOldify (colab)](https://github.com/jantic/DeOldify/blob/master/ImageColorizerColab.ipynb)
   - 画像の変換：[pix2pix](https://phillipi.github.io/pix2pix/)（[参考](https://affinelayer.com/pixsrv/)）<!--（[pix2pix](https://githubtocolab.com/junyanz/pytorch-CycleGAN-and-pix2pix/blob/master/pix2pix.ipynb)）-->
-  - 画風の変換：[Style Transfer (**colab**)](https://githubtocolab.com/tsakailab/iip/blob/main/sandbox/NeuralStyleTransfer.ipynb)，[MSG-Net (colab)](https://colab.research.google.com/github/zhanghang1989/PyTorch-Multi-Style-Transfer/blob/master/msgnet.ipynb)
+  - 画風の変換：[Style Transfer (**colab**)](https://githubtocolab.com/tsakailab/iip/blob/main/colab/NeuralStyleTransfer.ipynb)，[MSG-Net (colab)](https://colab.research.google.com/github/zhanghang1989/PyTorch-Multi-Style-Transfer/blob/master/msgnet.ipynb)
   - その他：[colabで動く最新技術のリンク集](https://github.com/amrzv/awesome-colab-notebooks)
 
 ### 基礎的な画像処理
@@ -26,11 +26,19 @@
 （[参考1](https://setosa.io/ev/image-kernels/)，[参考2](https://towardsdatascience.com/intuitively-understanding-convolutions-for-deep-learning-1f6f42faee1)）
   - エッジの検出・強調
   - 色の検出
-  - 平均化
+  - 平均化・ぼかし
 
 ---
 
 ## 第2回：様々なCNNモデル
+
+### CNNの構成例
+- 画像認識：画像→ラベル（[AlexNet，VGG，ResNetなど](https://medium.com/zylapp/review-of-deep-learning-algorithms-for-image-classification-5fdbca4a05e2)）
+- 画像処理：画像→画像（エンコーダ・デコーダモデル）[参考1](https://lilianweng.github.io/lil-log/2018/08/12/from-autoencoder-to-beta-vae.html)，[参考2](https://lilianweng.github.io/lil-log/2018/10/13/flow-based-deep-generative-models.html#types-of-generative-models)
+- 学習済みモデルの入手と観察
+  - モデルのsummary [**colab**](https://githubtocolab.com/tsakailab/iip/blob/main/colab/iip_model_summary.ipynb)
+  - フィルタの可視化（[参考](https://towardsdatascience.com/visualizing-convolution-neural-networks-using-pytorch-3dfa8443e74e)）
+  - 特徴マップ
 
 ### 畳み込みニューラルネットワーク（CNN）の構成要素
 - 全結合
@@ -38,14 +46,6 @@
 - [バッチノルム](https://arxiv.org/abs/1502.03167)（[参考1](https://pytorch.org/docs/stable/generated/torch.nn.BatchNorm2d.html)，[参考2](https://theaisummer.com/normalization/)）
 - 活性化
 - プーリング
-
-### CNNの構成例
-- 画像認識：画像→ラベル（[AlexNet，VGG，ResNetなど](https://medium.com/zylapp/review-of-deep-learning-algorithms-for-image-classification-5fdbca4a05e2)）
-- 画像処理：画像→画像（エンコーダ・デコーダモデル）
-- 学習済みモデルの入手と観察
-  - モデルのsummary
-  - フィルタの可視化（[参考](https://towardsdatascience.com/visualizing-convolution-neural-networks-using-pytorch-3dfa8443e74e)）
-  - 特徴マップ
 
 ### CNNの実装に挑戦<!-- CNNで小さなAEを作ってフィルタカーネルを観察する -->
 - CNNモデルの定義
