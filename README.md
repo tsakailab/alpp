@@ -37,15 +37,19 @@
 - 画像処理：画像→画像（エンコーダ・デコーダモデル）[参考1](https://lilianweng.github.io/lil-log/2018/08/12/from-autoencoder-to-beta-vae.html)，[参考2](https://lilianweng.github.io/lil-log/2018/10/13/flow-based-deep-generative-models.html#types-of-generative-models)
 - 学習済みモデルの入手と観察
   - モデルのsummary [**colab**](https://githubtocolab.com/tsakailab/iip/blob/main/colab/iip_model_summary.ipynb)
-  - フィルタの可視化（[参考](https://towardsdatascience.com/visualizing-convolution-neural-networks-using-pytorch-3dfa8443e74e)）
+  - フィルタの可視化（[参考1](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf#page=7)，[参考2](https://towardsdatascience.com/visualizing-convolution-neural-networks-using-pytorch-3dfa8443e74e)）
   - 特徴マップ
+- クラス活性化マッピング
+  - 部分的に隠す（[参考](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf#page=10)）
+  - モデルに作らせる（[GAPからCAMを作る](http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf)）
+  - 逆伝播で算出する [Grad-CAM](https://arxiv.org/pdf/1610.02391.pdf)
 
 ### CNNの構成要素
-- 全結合
 - 畳み込み
 - [バッチノルム](https://arxiv.org/abs/1502.03167)（[参考1](https://pytorch.org/docs/stable/generated/torch.nn.BatchNorm2d.html)，[参考2](https://theaisummer.com/normalization/)）
 - 活性化
-- プーリング
+- プーリング（[参考](https://arxiv.org/ftp/arxiv/papers/2009/2009.07485.pdf)）
+- 全結合
 
 ### CNNの実装に挑戦<!-- CNNで小さなAEを作ってフィルタカーネルを観察する -->
 - CNNモデルの定義
