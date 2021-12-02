@@ -16,7 +16,7 @@
   - カラー化（colorization）：[DeOldify (colab)](https://github.com/jantic/DeOldify/blob/master/ImageColorizerColab.ipynb)
   - 画像の変換：[pix2pix](https://phillipi.github.io/pix2pix/)（[参考](https://affinelayer.com/pixsrv/)）<!--（[pix2pix](https://githubtocolab.com/junyanz/pytorch-CycleGAN-and-pix2pix/blob/master/pix2pix.ipynb)）-->
   - 画風の変換：[Style Transfer (**colab**)](https://githubtocolab.com/tsakailab/iip/blob/main/colab/NeuralStyleTransfer.ipynb)，[MSG-Net (colab)](https://colab.research.google.com/github/zhanghang1989/PyTorch-Multi-Style-Transfer/blob/master/msgnet.ipynb)
-  - その他：[colabで動く最新技術のリンク集](https://github.com/amrzv/awesome-colab-notebooks)
+  - その他：[colabで動く最新技術のリンク集](https://github.com/amrzv/awesome-colab-notebooks)，[the-incredible-pytorch](https://www.ritchieng.com/the-incredible-pytorch/)
 
 ### 基礎的な画像処理
 - 大域的な変換 [**colab**](https://githubtocolab.com/tsakailab/iip/blob/main/colab/iip_global_operations.ipynb)（[参考](https://pytorch.org/vision/stable/transforms.html)）
@@ -37,8 +37,8 @@
 - 画像処理：画像→画像（エンコーダ・デコーダモデル）[参考1](https://lilianweng.github.io/lil-log/2018/08/12/from-autoencoder-to-beta-vae.html)，[参考2](https://lilianweng.github.io/lil-log/2018/10/13/flow-based-deep-generative-models.html#types-of-generative-models)
 - 学習済みモデルの入手と観察
   - モデルのsummary [**colab**](https://githubtocolab.com/tsakailab/iip/blob/main/colab/iip_model_summary.ipynb)
-  - フィルタの可視化（[参考1](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf#page=7)，[参考2](https://towardsdatascience.com/visualizing-convolution-neural-networks-using-pytorch-3dfa8443e74e)）
-  - 特徴マップ
+  - フィルタの可視化 [**colab**](https://githubtocolab.com/tsakailab/iip/blob/main/colab/iip_model_visualize_conv_kernels.ipynb)（[参考1](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf#page=7)，[参考2](https://towardsdatascience.com/visualizing-convolution-neural-networks-using-pytorch-3dfa8443e74e)）
+  - 特徴マップ [**colab**](https://githubtocolab.com/tsakailab/iip/blob/main/colab/iip_model_visualize_featuremaps.ipynb)（[参考](https://github.com/utkuozbulak/pytorch-cnn-visualizations)）
 - クラス活性化マッピング
   - 部分的に隠す（[参考](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf#page=10)）
   - モデルに作らせる（[GAPからCAMを作る](http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf)）
