@@ -51,7 +51,7 @@
 - プーリング（[参考](https://arxiv.org/ftp/arxiv/papers/2009/2009.07485.pdf)）
 - 全結合
 
-### CNNの実装に挑戦<!-- CNNで小さなAEを作ってフィルタカーネルを観察する -->
+### CNNの実装に挑戦 [**colab**](https://githubtocolab.com/tsakailab/iip/blob/main/colab/iip_cnn_practice.ipynb)<!-- CNNで小さなAEを作ってフィルタカーネルを観察する -->
 - CNNモデルの定義
 - 損失関数
 - 最適化
