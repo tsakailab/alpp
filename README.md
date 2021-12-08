@@ -60,16 +60,21 @@
 
 ## 第3回：転移学習
 
-### モデルの学習
+### モデルの学習 [**colab**](https://githubtocolab.com/tsakailab/iip/blob/main/colab/iip_cnn_practice.ipynb)
+- ハイパーパラメータの調整
 - 学習曲線
-- ハイパーパラメタの調整
+  - 過学習（overfitting）と早期打ち切り（early stopping）
+- CAMの観察 [**colab**](https://githubtocolab.com/tsakailab/iip/blob/main/colab/iip_model_cam.ipynb)
 
-### 学習済みモデルの流用
-- 事前学習済みモデル<!-- https://note.nkmk.me/python-pytorch-hub-torchvision-models/ -->
+### 転移学習による少数データの画像認識 [**colab**](https://githubtocolab.com/tsakailab/iip/blob/main/colab/iip_cnn_practice_transfer_learning.ipynb)
+- 流用できる事前学習済みモデル<!-- https://note.nkmk.me/python-pytorch-hub-torchvision-models/ -->
   - [PyTorch Hub](https://pytorch.org/hub/)
   - [torchvision.models](https://pytorch.org/vision/stable/models.html)
 - モデルの設計
-  - 特徴抽出器（backbone）の選択
+  - 特徴抽出器（backbone features）の選択
   - 特徴マップから出力までの設計
 - ファインチューニング
-- 性能の比較
+- CAMの観察 [**colab**](https://githubtocolab.com/tsakailab/iip/blob/main/colab/iip_model_cam.ipynb)
+
+### 物体検出と認識
+- SSDの転移学習
