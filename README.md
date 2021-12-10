@@ -77,4 +77,3 @@
 - CAMの観察 [**colab**](https://githubtocolab.com/tsakailab/iip/blob/main/colab/iip_model_cam.ipynb)
 
 ### 物体検出と認識
-- SSDの転移学習
