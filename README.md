@@ -43,6 +43,7 @@
   - 部分的に隠す（[参考](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf#page=10)）
   - モデルに作らせる（[GAPからCAMを作る](http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf)）
   - 逆伝播で算出する [Grad-CAM](https://arxiv.org/pdf/1610.02391.pdf)
+  - 線形モデルで近似する [LIME](https://arxiv.org/pdf/1602.04938.pdf)
 
 ### CNNの構成要素
 - 畳み込み
@@ -66,7 +67,6 @@
   - 過学習（overfitting）と早期打ち切り（early stopping）
 - CAMの観察 [**colab**](https://githubtocolab.com/tsakailab/iip/blob/main/colab/iip_model_cam.ipynb)
   - [GAPからCAMを作る](http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf)
-  - [参考](https://arxiv.org/pdf/1602.04938.pdf)
 
 ### 少数データの画像認識 [**colab**](https://githubtocolab.com/tsakailab/iip/blob/main/colab/iip_cnn_practice_transfer_learning.ipynb)
 - 流用できる事前学習済みモデル<!-- https://note.nkmk.me/python-pytorch-hub-torchvision-models/ -->
