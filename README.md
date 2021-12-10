@@ -76,4 +76,10 @@
 - ファインチューニング
 - CAMの観察 [**colab**](https://githubtocolab.com/tsakailab/iip/blob/main/colab/iip_model_cam.ipynb)
 
-### 物体検出と認識
+## その他
+- [Kaggle](https://www.kaggle.com/)
+  - [Courses](https://www.kaggle.com/learn) , e.g., [Computer Vision](https://www.kaggle.com/learn/computer-vision)
+  - [Datasets](https://www.kaggle.com/datasets), e.g., [Computer Vision](https://www.kaggle.com/datasets?tags=13207-Computer+Vision)
+- [CVF Open Access](https://openaccess.thecvf.com/menu)
+  - [CVPR](https://en.wikipedia.org/wiki/Conference_on_Computer_Vision_and_Pattern_Recognition)
+  - [cvpaper.challenge](http://xpaperchallenge.org/cv/)
