@@ -43,7 +43,7 @@
   - 部分的に隠す（[参考](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf#page=10)） / モデルに作らせる（[GAPからCAMを作る](http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf)） / 逆伝播で算出する [Grad-CAM](https://arxiv.org/pdf/1610.02391.pdf) / 線形近似する [LIME](https://arxiv.org/pdf/1602.04938.pdf)
 
 ### CNNの構成要素
-- [参考1](https://en.wikipedia.org/wiki/Convolutional_neural_network)，[参考2](https://www.electricalelibrary.com/en/2018/11/20/what-are-convolutional-neural-networks/)，[参考3](https://www.researchgate.net/publication/341576780_Object_Detection_and_Image_Segmentation_with_Deep_Learning_on_Earth_Observation_Data_A_Review-Part_I_Evolution_and_Recent_Trends)
+- [参考1](https://en.wikipedia.org/wiki/Convolutional_neural_network)，[参考2](https://www.electricalelibrary.com/en/2018/11/20/what-are-convolutional-neural-networks/)，[参考3](https://www.researchgate.net/figure/Overview-and-details-of-a-convolutional-neural-network-CNN-architecture-for-image_fig2_341576780)
 - [畳み込み層（convolutional layer）](https://en.wikipedia.org/wiki/Convolutional_neural_network#Convolutional_layer)
 - [バッチノルム層（batch normalization layer; bn）](https://arxiv.org/abs/1502.03167)：[参考1](https://pytorch.org/docs/stable/generated/torch.nn.BatchNorm2d.html)，[参考2](https://theaisummer.com/normalization/)
 - [活性化層（activation layer）](https://en.wikipedia.org/wiki/Activation_function)
