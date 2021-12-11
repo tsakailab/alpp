@@ -84,5 +84,7 @@
 - [CVF Open Access](https://openaccess.thecvf.com/menu)
   - [CVPR](https://en.wikipedia.org/wiki/Conference_on_Computer_Vision_and_Pattern_Recognition)
   - [cvpaper.challenge](http://xpaperchallenge.org/cv/)
+- 研究グループ
+- [VGG](https://www.robots.ox.ac.uk/~vgg/)
 ### 手軽に使えるデータセット
 - [TensorFlowDatasets](https://github.com/tensorflow/datasets)
