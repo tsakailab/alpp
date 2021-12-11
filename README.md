@@ -48,7 +48,7 @@
 - [バッチノルム層（batch normalization layer; bn）](https://arxiv.org/abs/1502.03167)：[参考1](https://pytorch.org/docs/stable/generated/torch.nn.BatchNorm2d.html)，[参考2](https://theaisummer.com/normalization/)
 - [活性化層（activation layer）](https://en.wikipedia.org/wiki/Activation_function)
 - [プーリング層（pooling layer）](https://en.wikipedia.org/wiki/Convolutional_neural_network#Pooling_layers)：[参考1](https://pytorch.org/docs/stable/nn.html#pooling-layers)，[参考2](https://arxiv.org/ftp/arxiv/papers/2009/2009.07485.pdf)
-- [全結合層（fully connected layer; fc, linear）](https://en.wikipedia.org/wiki/Convolutional_neural_network#Fully_connected_layers)
+- [全結合層（fully connected layer; fc, linear）](https://en.wikipedia.org/wiki/Convolutional_neural_network#Fully_connected_layers)：[参考](https://pytorch.org/docs/stable/generated/torch.nn.Linear.html)
 
 ### CNNの実装に挑戦 [**colab**](https://githubtocolab.com/tsakailab/iip/blob/main/colab/iip_cnn_practice.ipynb)<!-- CNNで小さなAEを作ってフィルタカーネルを観察する -->
 - CNNモデルの定義
@@ -77,9 +77,12 @@
 - CAMの観察 [**colab**](https://githubtocolab.com/tsakailab/iip/blob/main/colab/iip_model_cam.ipynb)
 
 ## その他
+### 視覚情報処理の教材・情報源
 - [Kaggle](https://www.kaggle.com/)
   - [Courses](https://www.kaggle.com/learn) , e.g., [Computer Vision](https://www.kaggle.com/learn/computer-vision)
   - [Datasets](https://www.kaggle.com/datasets), e.g., [Computer Vision](https://www.kaggle.com/datasets?tags=13207-Computer+Vision)
 - [CVF Open Access](https://openaccess.thecvf.com/menu)
   - [CVPR](https://en.wikipedia.org/wiki/Conference_on_Computer_Vision_and_Pattern_Recognition)
   - [cvpaper.challenge](http://xpaperchallenge.org/cv/)
+### 手軽に使えるデータセット
+- [TensorFlowDatasets](https://github.com/tensorflow/datasets)
