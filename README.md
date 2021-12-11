@@ -8,7 +8,7 @@
 ### 準備
 - [Google Colaboratory](https://colab.research.google.com/)（[参考](https://blog.kikagaku.co.jp/google-colab-howto)）
   - Jupyter Notebookについて
-  - 動作環境の確認 [**colab**](https://github.com/tsakailab/iip/blob/main/colab/display_colab_spec.ipynb)
+  - 動作環境の確認 [**colab**](https://githubtocolab.com/tsakailab/iip/blob/main/colab/display_colab_spec.ipynb)
 - 手軽に動かせる知的画像処理(?)の例
   - [Torch Hub](https://pytorch.org/hub/research-models)
   - 画像認識（image recognition）：[ResNet50 (colab)](https://colab.research.google.com/github/pytorch/pytorch.github.io/blob/master/assets/hub/nvidia_deeplearningexamples_resnet50.ipynb)
