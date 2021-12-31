@@ -1,6 +1,6 @@
 # 知的画像処理＠2021年度先端技術応用講座
 
-[講座の概要はシラバスをご覧ください](https://github.com/tsakailab/iip/blob/main/2021.11.27_%E7%9F%A5%E7%9A%84%E7%94%BB%E5%83%8F%E5%87%A6%E7%90%86%E8%AC%9B%E5%BA%A7.pdf)．
+[講座の概要はシラバスをご覧ください](2021.11.27_知的画像処理講座.pdf)．
 ここに掲載している講座の教材は，解説に都合の良いWeb上の記事やデモプログラム等の外部資料，およびサンプルコードで構成しています．
 太字の[**colab**](https://github.com/tsakailab/iip/tree/main/colab)は，このGitHubのプロジェクト "iip" で講師が提供するサンプルコードをGoogle Colaboratoryで開くリンクです．
 
