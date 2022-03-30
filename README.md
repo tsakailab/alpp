@@ -1,7 +1,11 @@
-# パターン処理工学特論 教材集（長崎大学大学院工学研究科 博士前期課程 総合工学専攻）
+# 画像の深層学習入門
+パターン処理工学特論（長崎大学大学院工学研究科 博士前期課程 総合工学専攻）教材
 
+<br>
 ここに掲載している教材は，解説に都合の良いWeb上の記事やデモプログラム等の外部資料，およびサンプルコードで構成しています．
 太字の[**colab**](https://github.com/tsakailab/alpp/tree/main/colab)は，このGitHubのプロジェクト "alpp" で担当教員が提供するサンプルコードをGoogle Colaboratoryで開くリンクです．
+
+---
 
 ## 第1回：深層学習による画像処理の基礎
 
@@ -50,14 +54,15 @@
 - [プーリング層（pooling layer）](https://en.wikipedia.org/wiki/Convolutional_neural_network#Pooling_layers)：[参考1](https://pytorch.org/docs/stable/nn.html#pooling-layers)，[参考2](https://arxiv.org/ftp/arxiv/papers/2009/2009.07485.pdf)
 - [全結合層（fully connected layer; fc, linear）](https://en.wikipedia.org/wiki/Convolutional_neural_network#Fully_connected_layers)：[参考](https://pytorch.org/docs/stable/generated/torch.nn.Linear.html)
 
+
+---
+
+## 第3回：CNNモデルの実装と学習
+
 ### CNNの実装に挑戦 [**colab**](https://githubtocolab.com/tsakailab/alpp/blob/main/colab/alpp_cnn_practice.ipynb)<!-- CNNで小さなAEを作ってフィルタカーネルを観察する -->
 - CNNモデルの定義
 - 損失関数
 - 最適化
-
----
-
-## 第3回：転移学習
 
 ### モデルの学習 [**colab**](https://githubtocolab.com/tsakailab/alpp/blob/main/colab/alpp_cnn_practice.ipynb)
 - ハイパーパラメータの調整
@@ -66,7 +71,12 @@
 - CAMの観察 [**colab**](https://githubtocolab.com/tsakailab/alpp/blob/main/colab/alpp_model_cam.ipynb)
   - [GAPからCAMを作る](http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf)
 
-### 少数データの画像認識 [**colab**](https://githubtocolab.com/tsakailab/alpp/blob/main/colab/alpp_cnn_practice_transfer_learning.ipynb)
+
+---
+
+## 第4回：少数データによる深層学習
+
+### 転移学習による画像認識 [**colab**](https://githubtocolab.com/tsakailab/alpp/blob/main/colab/alpp_cnn_practice_transfer_learning.ipynb)
 - 流用できる事前学習済みモデル<!-- https://note.nkmk.me/python-pytorch-hub-torchvision-models/ -->
   - [PyTorch Hub](https://pytorch.org/hub/)
   - [torchvision.models](https://pytorch.org/vision/stable/models.html)
@@ -75,6 +85,8 @@
   - 特徴マップから出力までの設計
 - ファインチューニング
 - CAMの観察 [**colab**](https://githubtocolab.com/tsakailab/alpp/blob/main/colab/alpp_model_cam.ipynb)
+
+---
 
 ## その他
 ### 視覚情報処理の教材・情報源
