@@ -1,5 +1,5 @@
 # Introduction to Deep Learning for Image Processing
-A part of Course Materials for Advanced Lectures on Pattern Processing, Graduate School of Engineering, Nagasaki University, 2022 ([Japanese](README.md))
+A part of Course Materials for Advanced Lectures on Pattern Processing, Graduate School of Engineering, Nagasaki University, 2022 ([Japanese](READMEja.md))
 
 <br>
 The course materials listed here consist of articles on the Web, external materials such as demo programs, and sample codes that are handy for explaining deep learning. 
