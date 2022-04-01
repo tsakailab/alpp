@@ -48,7 +48,7 @@ The [**colab**](https://github.com/tsakailab/alpp/tree/main/colab) in bold is a 
   - Occluding portions ([cf.](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf#page=10)) / self-made in forward prop. ([CAM via GAP](http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf)) / reviewing by backprop. [Grad-CAM](https://arxiv.org/pdf/1610.02391.pdf) / linear approximation [LIME](https://arxiv.org/pdf/1602.04938.pdf)
 
 ### Components of CNN
-- [cf. 1](https://en.wikipedia.org/wiki/Convolutional_neural_network), [cf. 2](https://www.electricalelibrary.com/en/2018/11/20/what-are-convolutional-neural-networks/), [cf. 3](https://www.researchgate.net/figure/Overview-and-details-of-a-convolutional-neural-network-CNN-architecture-for-image_fig2_341576780)
+- Overview [cf. 1](https://en.wikipedia.org/wiki/Convolutional_neural_network), [cf. 2](https://www.electricalelibrary.com/en/2018/11/20/what-are-convolutional-neural-networks/), [cf. 3](https://www.researchgate.net/figure/Overview-and-details-of-a-convolutional-neural-network-CNN-architecture-for-image_fig2_341576780)
 - [Convolutional layer](https://en.wikipedia.org/wiki/Convolutional_neural_network#Convolutional_layer)
 - [Batch normalization layer (bn)](https://arxiv.org/abs/1502.03167)：[cf. 1](https://pytorch.org/docs/stable/generated/torch.nn.BatchNorm2d.html), [cf. 2](https://theaisummer.com/normalization/)
 - [Activation layer](https://en.wikipedia.org/wiki/Activation_function)
