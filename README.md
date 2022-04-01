@@ -45,7 +45,7 @@ The [**colab**](https://github.com/tsakailab/alpp/tree/main/colab) in bold is a 
   - Filter visualization [**colab**](https://githubtocolab.com/tsakailab/alpp/blob/main/colab/alpp_model_visualize_conv_kernels.ipynb) ([cf. 1](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf#page=7), [cf. 2](https://towardsdatascience.com/visualizing-convolution-neural-networks-using-pytorch-3dfa8443e74e))
   - Feature maps [**colab**](https://githubtocolab.com/tsakailab/alpp/blob/main/colab/alpp_model_visualize_featuremaps.ipynb) ([cf.](https://github.com/utkuozbulak/pytorch-cnn-visualizations))
 - Class activation mapping (CAM)
-  - Occluding portions ([cf.](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf#page=10)) / self-made in forward prop. ([CAM via GAP](http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf)) / reviewing by backprop. [Grad-CAM](https://arxiv.org/pdf/1610.02391.pdf) / linear approximation [LIME](https://arxiv.org/pdf/1602.04938.pdf)
+  - Occluding portions ([cf.](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf#page=10)) / self-made in forward prop. ([CAM via GAP](http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf)) / reviewing by backprop. ([Grad-CAM](https://arxiv.org/pdf/1610.02391.pdf)) / linear approximation ([LIME](https://arxiv.org/pdf/1602.04938.pdf))
 
 ### Components of CNN
 - Overview [cf. 1](https://en.wikipedia.org/wiki/Convolutional_neural_network), [cf. 2](https://www.electricalelibrary.com/en/2018/11/20/what-are-convolutional-neural-networks/), [cf. 3](https://www.researchgate.net/figure/Overview-and-details-of-a-convolutional-neural-network-CNN-architecture-for-image_fig2_341576780)
