@@ -35,7 +35,7 @@ The [**colab**](https://github.com/tsakailab/alpp/tree/main/colab) in bold is a 
 
 ---
 
-## Part 2: Various CNN models
+## Part 2: Various CNN Models
 
 ### Architectures of Convolutional Neural Networks (CNN)
 - Image recognition: image to label ([AlexNet, VGG, ResNet, etc.](https://medium.com/zylapp/review-of-deep-learning-algorithms-for-image-classification-5fdbca4a05e2))
