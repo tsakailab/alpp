@@ -43,7 +43,7 @@ The [**colab**](https://github.com/tsakailab/alpp/tree/main/colab) in bold is a 
 - Obtaining and observing pre-trained models
   - Model summary [**colab**](https://githubtocolab.com/tsakailab/alpp/blob/main/colab/alpp_model_summary.ipynb)
   - Filter visualization [**colab**](https://githubtocolab.com/tsakailab/alpp/blob/main/colab/alpp_model_visualize_conv_kernels.ipynb) ([cf. 1](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf#page=7), [cf. 2](https://towardsdatascience.com/visualizing-convolution-neural-networks-using-pytorch-3dfa8443e74e))
-  - Feature maps [**colab**](https://githubtocolab.com/tsakailab/alpp/blob/main/colab/alpp_model_visualize_featuremaps.ipynb) ([cf.](https://github.com/utkuozbulak/pytorch-cnn-visualizations))
+  - Feature maps [**colab**](https://githubtocolab.com/tsakailab/alpp/blob/main/colab/alpp_model_visualize_featuremaps.ipynb) ([cf.](https://github.com/utkuozbulak/pytorch-cnn-visualizations)), [TensorSpace](https://github.com/tensorspace-team/tensorspace#example)
 - Class activation mapping (CAM)
   - Occluding portions ([cf.](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf#page=10)) / self-made in forward prop. ([CAM via GAP](http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf)) / reviewing by backprop. ([Grad-CAM](https://arxiv.org/pdf/1610.02391.pdf)) / linear approximation ([LIME](https://arxiv.org/pdf/1602.04938.pdf))
 
