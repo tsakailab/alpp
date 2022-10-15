@@ -43,7 +43,7 @@
 - 学習済みモデルの入手と観察
   - モデルのsummary [**colab**](https://githubtocolab.com/tsakailab/alpp/blob/main/colab/alpp_model_summary.ipynb)
   - フィルタの可視化 [**colab**](https://githubtocolab.com/tsakailab/alpp/blob/main/colab/alpp_model_visualize_conv_kernels.ipynb)（[参考1](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf#page=7)，[参考2](https://towardsdatascience.com/visualizing-convolution-neural-networks-using-pytorch-3dfa8443e74e)）
-  - 特徴マップ [**colab**](https://githubtocolab.com/tsakailab/alpp/blob/main/colab/alpp_model_visualize_featuremaps.ipynb)（[参考](https://github.com/utkuozbulak/pytorch-cnn-visualizations)）
+  - 特徴マップ [**colab**](https://githubtocolab.com/tsakailab/alpp/blob/main/colab/alpp_model_visualize_featuremaps.ipynb)（[参考](https://github.com/utkuozbulak/pytorch-cnn-visualizations)），[TensorSpace](https://github.com/tensorspace-team/tensorspace#example)
 - クラス活性化マッピング
   - 部分的に隠す（[参考](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf#page=10)） / モデルに作らせる（[GAPからCAMを作る](http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf)） / 逆伝播で算出する [Grad-CAM](https://arxiv.org/pdf/1610.02391.pdf) / 線形近似する [LIME](https://arxiv.org/pdf/1602.04938.pdf)
 
