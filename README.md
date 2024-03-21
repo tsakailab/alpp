@@ -8,7 +8,7 @@ The [**colab**](https://github.com/tsakailab/alpp/tree/main/colab) in bold is a 
 
 ---
 
-## Part 1: Fundamentals of Image Processing by Deep Learning
+## Part 1: Fundamentals of Image Processing in Deep Learning
 
 ### Preliminaries
 - [Google Colaboratory](https://colab.research.google.com/)（[cf.](https://blog.kikagaku.co.jp/google-colab-howto)）
