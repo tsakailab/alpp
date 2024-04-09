@@ -38,7 +38,7 @@ The [**colab**](https://github.com/tsakailab/alpp/tree/main/colab) in bold is a 
 ## Part 2: Various CNN Models
 
 ### Architectures of Convolutional Neural Networks (CNN)
-- Image recognition: image to label ([AlexNet, VGG, ResNet, etc.](https://medium.com/zylapp/review-of-deep-learning-algorithms-for-image-classification-5fdbca4a05e2), [survey](https://arxiv.org/abs/1809.02165))
+- Image recognition: image to label ([AlexNet, VGG, ResNet, etc.](https://medium.com/zylapp/review-of-deep-learning-algorithms-for-image-classification-5fdbca4a05e2), [survey](https://arxiv.org/abs/1809.02165), [OpenAI Microscope](https://microscope.openai.com/models))
 - Image processing: image to image (encoder-decoder model: [cf. 1](https://lilianweng.github.io/lil-log/2018/08/12/from-autoencoder-to-beta-vae.html), [cf. 2](https://lilianweng.github.io/lil-log/2018/10/13/flow-based-deep-generative-models.html#types-of-generative-models), hourglass networks: [cf. 1](https://en.wikipedia.org/wiki/U-Net), [cf. 2](https://medium.com/@sunnerli/simple-introduction-about-hourglass-like-model-11ee7c30138), [cf. 3](http://ais.informatik.uni-freiburg.de/teaching/ss19/deep_learning_lab/presentation_lectureCV.pdf))
 - Obtaining and observing pre-trained models
   - Model summary [**colab**](https://githubtocolab.com/tsakailab/alpp/blob/main/colab/alpp_model_summary.ipynb)
