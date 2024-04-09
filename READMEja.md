@@ -38,7 +38,7 @@
 ## 第2回：様々なCNNモデル
 
 ### 畳み込みニューラルネットワーク（CNN）の構成例
-- 画像認識：画像→ラベル（[AlexNet，VGG，ResNetなど](https://medium.com/zylapp/review-of-deep-learning-algorithms-for-image-classification-5fdbca4a05e2)，[サーベイ](https://arxiv.org/abs/1809.02165)）
+- 画像認識：画像→ラベル（[AlexNet，VGG，ResNetなど](https://medium.com/zylapp/review-of-deep-learning-algorithms-for-image-classification-5fdbca4a05e2)，[サーベイ](https://arxiv.org/abs/1809.02165), [OpenAI Microscope](https://microscope.openai.com/models)）
 - 画像処理：画像→画像（エンコーダ・デコーダモデル：[参考1](https://lilianweng.github.io/lil-log/2018/08/12/from-autoencoder-to-beta-vae.html)，[参考2](https://lilianweng.github.io/lil-log/2018/10/13/flow-based-deep-generative-models.html#types-of-generative-models)，砂時計型モデル：[参考1](https://en.wikipedia.org/wiki/U-Net)，[参考2](https://medium.com/@sunnerli/simple-introduction-about-hourglass-like-model-11ee7c30138)，[参考3](http://ais.informatik.uni-freiburg.de/teaching/ss19/deep_learning_lab/presentation_lectureCV.pdf)）
 - 学習済みモデルの入手と観察
   - モデルのsummary [**colab**](https://githubtocolab.com/tsakailab/alpp/blob/main/colab/alpp_model_summary.ipynb)
