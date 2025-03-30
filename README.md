@@ -5,7 +5,6 @@ A part of Course Materials for Advanced Lectures on Pattern Processing, Graduate
 The course materials listed here consist of articles on the Web, external materials such as demo programs, and sample codes that are handy for explaining deep learning. 
 The [**colab**](https://github.com/tsakailab/alpp/tree/main/colab) in bold is a link to open in Google Colaboratory a sample code at this GitHub repository "alpp" provided by the instructor.
 
-
 ---
 
 ## Part 1: Fundamentals of Image Processing in Deep Learning
