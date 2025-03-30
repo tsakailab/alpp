@@ -1,7 +1,6 @@
 # 画像の深層学習入門
 パターン処理工学特論（長崎大学大学院総合生産科学研究科 博士前期課程 総合工学専攻）教材 ([English](README.md))
 
-
 <br>
 ここに掲載している教材は，解説に都合の良いWeb上の記事やデモプログラム等の外部資料，およびサンプルコードで構成しています．
 太字の[**colab**](https://github.com/tsakailab/alpp/tree/main/colab)は，このGitHubのプロジェクト "alpp" で担当教員が提供するサンプルコードをGoogle Colaboratoryで開くリンクです．
