@@ -28,7 +28,7 @@ The [**colab**](https://github.com/tsakailab/alpp/tree/main/colab) in bold is a 
   - Geometric transformations (scaling, rotation, etc.)
   - Color deformation (pixel value transformation)
 - Local operations by convolution [**colab**](https://githubtocolab.com/tsakailab/alpp/blob/main/colab/alpp_local_operations.ipynb)
- ([cf. 1](https://setosa.io/ev/image-kernels/), [cf. 2](https://towardsdatascience.com/intuitively-understanding-convolutions-for-deep-learning-1f6f42faee1))
+ ([cf. 1](https://setosa.io/ev/image-kernels/), [cf. 2](https://towardsdatascience.com/convolutional-networks-intuitively-and-exhaustively-explained-ab08f6353f96/))
   - Edge detection and enhancement
   - Color detection
   - Averaging and blurring
