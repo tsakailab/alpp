@@ -28,7 +28,7 @@
   - 幾何学変換（拡大・縮小，回転など）
   - 画素値（色）の変換
 - 畳み込みによる局所演算 [**colab**](https://githubtocolab.com/tsakailab/alpp/blob/main/colab/alpp_local_operations.ipynb)
-（[参考1](https://setosa.io/ev/image-kernels/)，[参考2](https://towardsdatascience.com/intuitively-understanding-convolutions-for-deep-learning-1f6f42faee1)）
+（[参考1](https://setosa.io/ev/image-kernels/)，[参考2](https://towardsdatascience.com/convolutional-networks-intuitively-and-exhaustively-explained-ab08f6353f96/)）
   - エッジの検出・強調
   - 色の検出
   - 平均化・ぼかし
