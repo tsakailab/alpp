@@ -53,7 +53,7 @@
 
 ### CNNの構成要素
 - [参考1](https://en.wikipedia.org/wiki/Convolutional_neural_network)，[参考2](https://www.electricalelibrary.com/en/2018/11/20/what-are-convolutional-neural-networks/)，[参考3](https://www.researchgate.net/figure/Overview-and-details-of-a-convolutional-neural-network-CNN-architecture-for-image_fig2_341576780)
-- [畳み込み層（convolutional layer）](https://en.wikipedia.org/wiki/Convolutional_neural_network#Convolutional_layer)
+- [畳み込み層（convolutional layer）](https://en.wikipedia.org/wiki/Convolutional_neural_network#Convolutional_layer)：[受容野](https://jojonki.github.io/Vis-Receptive-Fields/)
 - [バッチノルム層（batch normalization layer; bn）](https://arxiv.org/abs/1502.03167)：[参考1](https://pytorch.org/docs/stable/generated/torch.nn.BatchNorm2d.html)，[参考2](https://theaisummer.com/normalization/)
 - [活性化層（activation layer）](https://en.wikipedia.org/wiki/Activation_function)
 - [プーリング層（pooling layer）](https://en.wikipedia.org/wiki/Convolutional_neural_network#Pooling_layers)：[参考1](https://pytorch.org/docs/stable/nn.html#pooling-layers)，[参考2](https://arxiv.org/ftp/arxiv/papers/2009/2009.07485.pdf)
