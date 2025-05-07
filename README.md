@@ -52,7 +52,7 @@ The [**colab**](https://github.com/tsakailab/alpp/tree/main/colab) in bold is a 
 
 ### Components of CNN
 - Overview [cf. 1](https://en.wikipedia.org/wiki/Convolutional_neural_network), [cf. 2](https://www.electricalelibrary.com/en/2018/11/20/what-are-convolutional-neural-networks/), [cf. 3](https://www.researchgate.net/figure/Overview-and-details-of-a-convolutional-neural-network-CNN-architecture-for-image_fig2_341576780)
-- [Convolutional layer](https://en.wikipedia.org/wiki/Convolutional_neural_network#Convolutional_layer)
+- [Convolutional layer](https://en.wikipedia.org/wiki/Convolutional_neural_network#Convolutional_layer)：[Receptive field](https://jojonki.github.io/Vis-Receptive-Fields/)
 - [Batch normalization layer (bn)](https://arxiv.org/abs/1502.03167)：[cf. 1](https://pytorch.org/docs/stable/generated/torch.nn.BatchNorm2d.html), [cf. 2](https://theaisummer.com/normalization/)
 - [Activation layer](https://en.wikipedia.org/wiki/Activation_function)
 - [Pooling layer](https://en.wikipedia.org/wiki/Convolutional_neural_network#Pooling_layers): [cf. 1](https://pytorch.org/docs/stable/nn.html#pooling-layers), [cf. 2](https://arxiv.org/ftp/arxiv/papers/2009/2009.07485.pdf)
